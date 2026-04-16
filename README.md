@@ -41,6 +41,7 @@ If your wish collides with someone else's wish, please still add it and do not r
 - [stwhh-mensa](https://github.com/pixlcrashr/stwhh-mensa) - As of April 2026, an unfinished, unmaintained project written in go that crawls the website and saves details for aggregation purposes. There isn't very much documentation and significant time seems to have been spent on database schemas and making the software runnable via docker. Also there isn't a webpage or an API yet, so the project isn't very far along on the way to reaching it's MVP in my opinion.
 - [TUHH-Mensa](https://github.com/Lukas-Fohl/TUHH-Mensa) - A small command line utility that gets the names and prices of food and sends them to the push service ntfy.sh. The project seems alive but very small and lacks the ambition to be a fast, customizable tool with high information density. I will try to join forces with the creators.
 - [Mensaplan](https://www.mensaplan.de/hamburg/mensa-harburg/index.html) - A fairly mature piece of software that is closed source, run by an advertising company and not very optimized for Hamburg, which means that it doesn't show allergy information and so on.
+- [UHH Mobile](https://m.uhh.de/?Mp-#Mp-_) - Aparently intended to show information but blank as far as I can tell. Maybe still in development, maybe outdated.
 
 ## Project Vision (technical)
 
