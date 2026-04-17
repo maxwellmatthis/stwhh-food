@@ -8,9 +8,9 @@ A crawler that feeds a server that helps aggregate and track food offerings for 
 
 ## Background
 
-The [food website of Hamburg's student works](https://www.stwhh.de/speiseplan?t=this_week) isn't perfect. It's slow, there's a lot of text boiler plate and scrolling, its filters don't have much variety and are sometimes broken, it doesn't track interesting statistics, there is not official app, the only way to get notifications is getting the whole weeks schedule via email, etc. ([Add your wishes here](#wishes)) Unsurprisingly with so many computer scientists and engineers there are [a hand full of projects](#other-solutions-attempting-to-improve-food-finding-efforts) that have started working on better tools. But it's the most complete and well maintained project I can find.
+The [food website of Hamburg's student works](https://www.stwhh.de/speiseplan?t=this_week) isn't perfect. It's slow, there's a lot of text boiler plate and scrolling, its filters don't have much variety and are sometimes broken, it doesn't track interesting statistics, there is not official app, the only way to get notifications is getting the whole weeks schedule via email, etc. ([Add your wishes here](#wishes)) Unsurprisingly with so many computer scientists and engineers there are [a hand full of projects](#other-solutions-attempting-to-improve-food-finding-efforts) that have started working on better tools. ~But it's the most complete and well maintained project I can find.~ One that stands out and might be the best shot is the [Mafiasi Mensa App](https://mensa.mafiasi.de).
 
-So here I am setting out to create yet another project. Hopefully we can get a **larger group of software nerds** to work on this together **to make a tool** that **people will actually use**. Maybe the project can graduate from the TUHH and become known across Hamburg.
+~So here I am setting out to create yet another project.~ Hopefully we can get a **larger group of software nerds** to work on this together **to create a tool** that **people will actually use** and doesn't leave out common features. Maybe the project can graduate from the TUHH and become known across Hamburg.
 
 I'm explicitly starting this project, not by coding, but by creating this README to kickstart the networking and intelligence gathering process. Coding a first MVP should be fairly straight forward, but some planning is probably a good idea and maybe we _won't even have to create anything new_, if there is already an app that meets our [requirements](#wishes).
 
@@ -41,7 +41,8 @@ If your wish collides with someone else's wish, please still add it and do not r
 - [stwhh-mensa](https://github.com/pixlcrashr/stwhh-mensa) - As of April 2026, an unfinished, unmaintained project written in go that crawls the website and saves details for aggregation purposes. There isn't very much documentation and significant time seems to have been spent on database schemas and making the software runnable via docker. Also there isn't a webpage or an API yet, so the project isn't very far along on the way to reaching it's MVP in my opinion.
 - [TUHH-Mensa](https://github.com/Lukas-Fohl/TUHH-Mensa) - A small command line utility that gets the names and prices of food and sends them to the push service ntfy.sh. The project seems alive but very small and lacks the ambition to be a fast, customizable tool with high information density. I will try to join forces with the creators.
 - [Mensaplan](https://www.mensaplan.de/hamburg/mensa-harburg/index.html) - A fairly mature piece of software that is closed source, run by an advertising company and not very optimized for Hamburg, which means that it doesn't show allergy information and so on.
-- [UHH Mobile](https://m.uhh.de/?Mp-#Mp-_) - Aparently intended to show information but blank as far as I can tell. Maybe still in development, maybe outdated.
+- [UHH Mobile](https://m.uhh.de/?Mp-#Mp-_) - Apparently intended to show information but blank as far as I can tell. Maybe still in development, maybe outdated.
+- [Mafiasi Mensa App](https://mensa.mafiasi.de) - A very nice and fast viewer built by the Mafiasi Club at UHH. It still lacks nice to have features though. I will try to contact the maintainers and discuss whether we can fork or contribute to enhance the tooling.
 
 ## Project Vision (technical)
 
