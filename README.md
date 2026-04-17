@@ -43,6 +43,8 @@ If your wish collides with someone else's wish, please still add it and do not r
 - [Mensaplan](https://www.mensaplan.de/hamburg/mensa-harburg/index.html) - A fairly mature piece of software that is closed source, run by an advertising company and not very optimized for Hamburg, which means that it doesn't show allergy information and so on.
 - [UHH Mobile](https://m.uhh.de/?Mp-#Mp-_) - Apparently intended to show information but blank as far as I can tell. Maybe still in development, maybe outdated.
 - [Mafiasi Mensa App](https://mensa.mafiasi.de) - A very nice and fast viewer built by the Mafiasi Club at UHH. It still lacks nice to have features though. I will try to contact the maintainers and discuss whether we can fork or contribute to enhance the tooling.
+- [OpenMensa](https://openmensa.org/c/1745) - Seems to be an old project that also provides the same overview as the main website. In addition it seems worldwide which is likely too large scale for specific features. But has an API, in case that helps. For example one could create a much smaller tool that uses the API to get data from the past and future without having to host any new servers.
+- [OpenMensa Parsers](https://github.com/mswart/openmensa-parsers/blob/master/parsers/hamburg.py) - Parsers for major german universities that are useful for implementing new solutions.
 
 ## Project Vision (technical)
 
